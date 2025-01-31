@@ -1,0 +1,24 @@
+2025/01/30-21:45:06.599 6550 Reusing MANIFEST C:\Users\raque\bot-whatsapp\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/01/30-21:45:06.599 6550 Recovering log #344
+2025/01/30-21:45:06.641 6550 Reusing old log C:\Users\raque\bot-whatsapp\tokens\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000344.log 
+2025/01/30-21:45:07.633 6550 Level-0 table #349: started
+2025/01/30-21:45:07.671 6550 Level-0 table #349: 1014668 bytes OK
+2025/01/30-21:45:07.672 6550 Delete type=0 #344
+2025/01/30-21:45:07.673 6550 Manual compaction at level-0 from '\x00D\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00E\x00\x00\x00' @ 0 : 0; will stop at '\x00E\x00\x00\x05' @ 1586670 : 1
+2025/01/30-21:45:07.673 6550 Compacting 1@0 + 1@1 files
+2025/01/30-21:45:07.730 6550 Generated table #350@0: 50674 keys, 1052611 bytes
+2025/01/30-21:45:07.730 6550 Compacted 1@0 + 1@1 files => 1052611 bytes
+2025/01/30-21:45:07.731 6550 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/01/30-21:45:07.731 6550 Delete type=2 #349
+2025/01/30-21:45:07.732 6550 Manual compaction at level-0 from '\x00E\x00\x00\x05' @ 1586670 : 1 .. '\x00E\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/01/30-21:45:07.733 6550 Level-0 table #352: started
+2025/01/30-21:45:07.735 6550 Level-0 table #352: 250 bytes OK
+2025/01/30-21:45:07.736 6550 Delete type=2 #346
+2025/01/30-21:45:07.736 6550 Delete type=0 #348
+2025/01/30-21:45:07.737 6550 Manual compaction at level-0 from '\x00E\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00F\x00\x00\x00' @ 0 : 0; will stop at '\x00E\x00\x00\x05' @ 1586703 : 0
+2025/01/30-21:45:07.737 6550 Compacting 1@0 + 1@1 files
+2025/01/30-21:45:07.789 6550 Generated table #353@0: 50672 keys, 1052488 bytes
+2025/01/30-21:45:07.789 6550 Compacted 1@0 + 1@1 files => 1052488 bytes
+2025/01/30-21:45:07.790 6550 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/01/30-21:45:07.790 6550 Delete type=2 #352
+2025/01/30-21:45:07.790 6550 Manual compaction at level-0 from '\x00E\x00\x00\x05' @ 1586703 : 0 .. '\x00F\x00\x00\x00' @ 0 : 0; will stop at (end)
