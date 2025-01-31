@@ -1,4 +1,6 @@
+process.env.PUPPETEER_SKIP_CHROMIUM_DOWNLOAD = "true";
 process.env.PUPPETEER_EXECUTABLE_PATH = "/usr/bin/chromium-browser";
+
 
 const wppconnect = require('@wppconnect-team/wppconnect');
 const { OpenAI } = require("openai");

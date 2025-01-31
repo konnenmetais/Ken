@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "install-chrome": "bash install-chrome.sh",
+    "start": "node bot.js"
+  },
   "dependencies": {
     "@wppconnect-team/wppconnect": "^1.35.2",
     "openai": "^4.81.0"
