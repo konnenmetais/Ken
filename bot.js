@@ -3,11 +3,14 @@ process.env.PUPPETEER_EXECUTABLE_PATH = "/usr/bin/chromium-browser";
 
 
 const wppconnect = require('@wppconnect-team/wppconnect');
-const { OpenAI } = require("openai");
+const openai = new OpenAI({
+    apiKey: process.env.OPENAI_API_KEY
+});
+
 
 // 🔹 Configuração da OpenAI
 const openai = new OpenAI({
-    apiKey: "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" // 🔹 Coloque sua chave aqui
+    apiKey: process.env.OPENAI_API_KEY // 🔹 Coloque sua chave aqui
 });
 
 // 🔹 Função para obter o primeiro nome do contato
